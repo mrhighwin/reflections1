@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git created .git to start recording activities of the folders. So the system initialize the starting point of Git.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is where the files are ready to commit goes to. so developers are doing unit dev. they can just commit the ones are ready in the staging area. Also they get a chance to pick which files to commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+you use command git diff --staged
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+branch would help develop extra features. or we can use the example as easy mode to differentiate the main feature. It is very helpful to track the history of different feature developed. Context switching. keep project organized.. have a development work. experiemental branch to share with people and collaborate with yourself. if you get bored with a feature, you might be able to switch to others.
+
+
+
+
